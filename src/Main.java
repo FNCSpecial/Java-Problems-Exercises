@@ -53,55 +53,6 @@ class UnivalTree{
 public class Main {
 
 
-    static boolean Problem1(int k){
-        /*
-Good morning! Here's your coding interview problem for today/
-This problem was recently asked by Google.
-Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
-For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
-Bonus: Can you do this in one pass?
-
-
- System.out.println(Problem1(20));
-
-*/
-
-        List <Integer> list = new ArrayList<Integer>();
-        list.add(10);
-        list.add(15);
-        list.add(3);
-        list.add(7);
-
-
-        int size = list.size();
-
-        for (int j = 0; j < size ; j++) {
-            for (int i = 0; i < size; i++) {
-
-                if((list.get(j) + list.get(i)) == k ) {
-                    System.out.println(list.get(j) + list.get(i));
-                    return true;
-                }
-            }
-        }
-
-        return false;
-    }
-    static boolean isPalindrome(String word) {
-
-        String backwards="";
-        int size = word.length();
-
-        for(int i = size-1; i>=0 ; i--) {
-            backwards =backwards + word.charAt(i);
-        }
-        if(backwards.equals(word)){
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
     static Boolean isPrime(Integer n) {
     for(int i=n-1; i>=2 ; i-- ){
         if (n % i == 0 ){

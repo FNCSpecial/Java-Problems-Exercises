@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fibbonacci/Fibbonacci.iml" filepath="$PROJECT_DIR$/Fibbonacci/Fibbonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fibbonacci_recursive/Fibbonacci_recursive.iml" filepath="$PROJECT_DIR$/Fibbonacci_recursive/Fibbonacci_recursive.iml" />
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IsPalindrome/IsPalindrome.iml" filepath="$PROJECT_DIR$/IsPalindrome/IsPalindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IsPrime/IsPrime.iml" filepath="$PROJECT_DIR$/IsPrime/IsPrime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/given a list of numbers and k return if any two numbers from the list add up to K/given a list of numbers and k return if any two numbers from the list add up to K.iml" filepath="$PROJECT_DIR$/given a list of numbers and k return if any two numbers from the list add up to K/given a list of numbers and k return if any two numbers from the list add up to K.iml" />
       <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
     </modules>
   </component>
