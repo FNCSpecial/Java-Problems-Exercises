@@ -53,14 +53,7 @@ class UnivalTree{
 public class Main {
 
 
-    static Boolean isPrime(Integer n) {
-    for(int i=n-1; i>=2 ; i-- ){
-        if (n % i == 0 ){
-            return false;
-        }
-    }
-        return true;
-    }
+
     static  int fibonacci(Integer n){
         int wynik=0;
         int prevprev = 0;
