@@ -58,34 +58,7 @@ public class Main {
 
 
 
-    static Integer evenFibonacciSum(Integer n) {
 
-        int wynik=0;
-        int fib;
-        int prevprev = 0;
-        int prev = 1;
-
-        while(wynik <= n){
-            fib = prevprev + prev;
-            prevprev = prev;
-            prev = fib;
-
-            if(fib % 2 == 0 ){
-                if(wynik + fib < n ) {
-                    wynik += fib;
-                }
-                else {
-                    break;
-                }
-            }
-
-        }
-
-
-
-        return wynik;
-
-    }
     static int Problem2_divide( int tab[]){
 
        /*
